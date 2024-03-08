@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Conversor</title>
+  </head>
+  <body>
+    <main id="container">
+      <form id="form">
+        <div id="inputs">
+
+          <div class="input-box">
+            <label for="binary">
+              Valor em binário
+              <div class="input-field">
+                <input type="text" id="binary" name="binary" />
+              </div>
+            </label>
+          </div>
+
+          <div class="input-box">
+            <label for="hexa">
+              Valor em Hexadecimal
+              <div class="input-field">
+                <input type="text" id="hexa" name="hexa" />
+              </div>
+            </label>
+          </div>
+
+          <div class="input-box">
+            <label for="decimal">
+              Valor em Decimal
+              <div class="input-field">
+                <input type="text" id="decimal" name="decimal" />
+              </div>
+            </label>
+          </div>
+
+        </div>
+
+        <button type="submit" id="calc_button">Converter</button>
+
+        <button type="reset" class="reset_btn">Limpar</button>
+      </form>
+    </main>
+
+    <!-- script -->
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
